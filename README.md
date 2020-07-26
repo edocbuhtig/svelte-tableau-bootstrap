@@ -2,7 +2,7 @@
 
 ## Demo Preview
 
-![Tableau Vue](/screenshot/screenshot-dashboard-table-svelte.png)
+![Tableau Vue](/screenshots/screenshot-dashboard-table-svelte.png)
 
 ### Import Tableau JS API Lib 
 
