@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte app</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>	
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/vendor/bootstrap/bootstrap.css'>
+	<link rel="stylesheet" href="https://v5.getbootstrap.com/docs/5.0/examples/dashboard/dashboard.css">
+	<link rel='stylesheet' href='/build/bundle.css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script defer src='/build/bundle.js'></script>	
+	<script src="https://v5.getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "http://public.tableau.com/views/RegionalSampleWorkbook/Stocks",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+
+            var viz = new tableau.Viz(containerDiv, url, options);
+            // Create a viz object and embed it in the container div.
+        }
+    </script>
+</head>
+
+<body onload="initViz();">
+
+</body>
+</html>
