@@ -17,7 +17,5 @@ into `<head>` of **/public/index.html**
 https://help.tableau.com/current/api/js_api/en-us/JavaScriptAPI/js_api_samples.htm
 ```
 
-### Tutorial
 
-[Svelte Tutorial Tableau Analytics and Bootstrap 5](https://www.fullstackblog.in/svelte-tutorial-tableau-analytics-and-bootstrap/)
 
