@@ -1,4 +1,11 @@
-## Svelte Tutorial Tableau Analytics and Bootstrap 5 
+## Svelte App with Tableau Analytics integrating Bootstrap 5 library.
+
+Clone the repo and run below commands to install packages and run in dev mode
+
+```
+npm i
+npm run dev
+```
 
 ## Demo Preview
 
